@@ -14,7 +14,10 @@ print(my_list[0]) #1
 print(my_list[1:4]) #[2,3,4]
 print(my_list[0:]) # [1,2,3,4,5]
 my_list.append(6)
-print(my_list) # 1,2,3,4,5
+print(my_list) #]1,2,3,4,5,6]
+my_list.extend([10,11,12,13,14])
+my_list.extend(list(range(15,1000)))
+print(my_list)
 #instead of creatin seperate variables
 #for each item we can store them in a list
 #this makes our job easier because when we meed to manage multiple items 
