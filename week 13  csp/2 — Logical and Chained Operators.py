@@ -52,6 +52,8 @@ elif score < 60:
 # Practice Problems:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
+x = int(input("enter a number: "))
+print(50 <= x <= 100)
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
 

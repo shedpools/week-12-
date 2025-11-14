@@ -3,6 +3,22 @@
 
 # Topics Covered:
 # Creating lists, indexing, slicing, appending, popping, sorting, reversing.
+#collections are used to store multiple items in a single variable
+# lists are ordered collections of items
+#lists are mutable meaning you can change their content
+#lists are created using square brackets []
+my_list = [1,2,3,4,5]
+print(my_list) # 1 2 3 4 5
+print(type(my_list)) #class 'list'
+print(my_list[0]) #1
+print(my_list[1:4]) #[2,3,4]
+print(my_list[0:]) # [1,2,3,4,5]
+my_list.append(6)
+print(my_list) # 1,2,3,4,5
+#instead of creatin seperate variables
+#for each item we can store them in a list
+#this makes our job easier because when we meed to manage multiple items 
+#performance task answer
 
 # Examples:
 
